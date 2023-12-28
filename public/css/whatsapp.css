@@ -1,0 +1,12 @@
+#whatsappIcon {
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px #20b038, 0 0 20px #20b038, 0 0 30px #60d66a;
+    }
+    to {
+        box-shadow: 0 0 20px #20b038, 0 0 30px #60d66a, 0 0 40px #20b038;
+    }
+}
